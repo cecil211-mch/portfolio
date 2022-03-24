@@ -46,12 +46,12 @@ nav ul li{
     padding: 8px 18px;
 }
 nav ul li a{
-    color: #1d1d24;
+    color: black;
     position: static;
     padding: 5px 0;
 }
 nav ul li a:hover{
-    color: #fd4766;
+    color: red;
 }
 nav ul li a:after{
     content: "";
@@ -67,7 +67,7 @@ nav ul li a:hover:after{
     width: 100%;
 }
 .btn{
-    color: #fff;
+    color:white;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -77,14 +77,14 @@ nav ul li a:hover:after{
     font-weight: 500;
     transition: all .4s ease-in-out;
     background-size: 152% 100%;
-    background: #fd4766;
-    border: 2px solid #fd4766;
+    background: red;
+    border: 2px solid red;
     margin: 10%;
 }
 .btn:hover{
     background: transparent;
-    border-color: #fd4766;
-    color: #fd4766;
+    border-color: red;
+    color: red;
 }
 .content{
     position: absolute;
@@ -95,19 +95,19 @@ nav ul li a:hover:after{
     color: blue;
 }
 .content .title{
-    color: #1f1f25;
+    color: black;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 4px;
     display: inline-block;
     margin-top: 10%;
     margin-bottom: 20px;
-    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    background: linear-gradient(120deg,blue 20.69%, purple 50.19%red 79.69%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .content h1{
-    color: #1f1f25;
+    color: black;
     font-size: 75px;
     font-weight: 900;
     line-height: 90px;
@@ -115,7 +115,7 @@ nav ul li a:hover:after{
     width: 70%;
 }
 .content h1 span{
-    color: #fd4766;
+    color: red;
 }
 .content p{
     width: 55%;
